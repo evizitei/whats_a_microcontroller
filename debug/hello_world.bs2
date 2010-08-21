@@ -1,0 +1,6 @@
+' Hello World from a microcontroller
+' {$STAMP BS2}
+' {$PBASIC 2.5}
+DEBUG "Hello, World.  I'm an embedded program!"
+END
+

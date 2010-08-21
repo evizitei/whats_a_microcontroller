@@ -1,0 +1,11 @@
+' Hello World from a microcontroller
+' {$STAMP BS2}
+' {$PBASIC 2.5}
+DEBUG CR, "What's 7 X 11?"
+DEBUG CR, "The answer is: "
+DEBUG DEC 7 * 11
+DEBUG CR, "What's 4 + 3 + 2 + 1?"
+DEBUG CR, "The answer is: "
+DEBUG DEC 4 + 3 + 2 + 1
+END
+

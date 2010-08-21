@@ -1,0 +1,17 @@
+' Hello World from a microcontroller
+' {$STAMP BS2}
+' {$PBASIC 2.5}
+DEBUG "Blink the LED from P14"
+
+counter VAR BYTE
+
+FOR counter = 1 TO 10
+  DEBUG ? counter
+  HIGH 14
+  PAUSE 250
+  LOW 14
+  PAUSE 250
+NEXT
+
+END
+
